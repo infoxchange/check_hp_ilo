@@ -60,6 +60,8 @@ define service {
   service_description            hp-ilo
   hostgroup_name                 hp-servers
   check_command                  check-hp-ilo!-c not_so_public
+  check_interval                 60            ; Don't check too often
+  retry_interval                 5
   stalking_options               o,w,c         ; Retain latest ILO IP address (output rarely changes)
 }
 
