@@ -1,4 +1,4 @@
-name: check_hp_ilo.pl - Discover and check HP ILO network port
+name: check_hp_ilo.pl
 description: "file:///README.md"
 url: "https://github.com/infoxchange/check_hp_ilo"
 tags: Filesystem
